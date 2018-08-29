@@ -19,7 +19,7 @@ My eclipse工具
 
 ### Java中的关键字-2
 
-**数据类型：  **
+**数据类型**  
 1. (基本 本身)整数类型：byte(1) short(2) int(4) long(8)
 2. (基本 本身)浮点类型：float(4) double(8)    
 3. (基本 本身)字符类型：char(2)
@@ -29,15 +29,14 @@ My eclipse工具
 7. (引用 地址)数组
 8. (引用)字符串：String
 
-**逻辑运算：  **
-
+**逻辑运算**  
 1. if else：条件判断
 2. for do while：循环
 3. continue：继续下次循环
 4. break：跳出循环
 5. switch case default：多重条件
           
-**修饰符：  **
+**修饰符**  
 final：用于修饰常量，不允许改变
 abstract：
 private：
