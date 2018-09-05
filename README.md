@@ -1,7 +1,7 @@
 # Java入门  
 
 *println输出信息后会换行，print不会换行*  
-*import java.util.Scanner*
+*import java.util.Scanner*  
 *main+Alt+/  -->main方法*  
 *Syso+Alt+/  -->System.out.println();*  
 *问题：public ststic HelloWorld{}，HelloWorld为什么要和源文件名一致？*   
@@ -28,7 +28,7 @@ My eclipse工具
 1. (基本 本身)整数类型：byte(1) short(2) int(4) long(8)
 2. (基本 本身)浮点类型：float(4) double(8)    
 3. (基本 本身)字符类型：char(2)
-4. (基本 本身)布尔类型：boolean(1)（包含：true false）
+4. (基本 本身)布尔类型：boolean(1)（值：true false）
 5. (引用 地址)类：class
 6. (引用 地址)接口：interface
 7. (引用 地址)数组
@@ -58,4 +58,11 @@ null：空
 extends finally catch  package    import implements instanceof  new native try synchronized this throw throws transient
 
 ### javadoc命令从文档注释中提取内容-2
-举例：'javadoc -d doc Demo03.java'
+举例：'javadoc -d doc Demo03.java'  
+
+### 数组-6
+方法一：数据类型[] 数组名  
+方法二：数据类型 数组名[]  
+分配空间：数组名 = new 数据类型[数组长度]  
+举例：int[] scores = new int[]{70,80,90};  
+
