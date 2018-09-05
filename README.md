@@ -1,7 +1,7 @@
 # Java入门  
 
 *println输出信息后会换行，print不会换行*  
-*java.util.Scanner*
+*import java.util.Scanner*
 *main+Alt+/  -->main方法*  
 *Syso+Alt+/  -->System.out.println();*  
 *问题：public ststic HelloWorld{}，HelloWorld为什么要和源文件名一致？*   
@@ -33,25 +33,28 @@ My eclipse工具
 6. (引用 地址)接口：interface
 7. (引用 地址)数组
 8. (引用)字符串：String  
+
 **逻辑运算**  
 1. if else：条件语句
 2. for do while：循环
 3. continue：跳出继续下次循环
 4. break：跳出循环
 5. switch case default：多重条件(switch后面表达式必须是整型或字符型，case必须是常量数值或常量表达式)  
+
 **修饰符**  
 final：用于修饰常量，不允许改变
-abstract：
-private：
-protected：
-public：
-static：
-super ：
-volatile：
+abstract：  
+private：  
+protected：  
+public：  
+static：  
+super ：  
+volatile：  
+
 **函数**  
-return：返回
-void：无类型
-null：空
+return：返回  
+void：无类型  
+null：空  
 extends finally catch  package    import implements instanceof  new native try synchronized this throw throws transient
 
 ### javadoc命令从文档注释中提取内容-2
