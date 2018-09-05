@@ -44,17 +44,17 @@ My eclipse工具
 4. break：跳出循环
 5. switch case default：多重条件(switch后面表达式必须是整型或字符型，case必须是常量数值或常量表达式)  
 
-**修饰符**  
-final：用于修饰常量，不允许改变
-abstract：  
+**访问修饰符**  
 private：  
 protected：  
 public：  
+final：用于修饰常量，不允许改变
+abstract：  
 static：  
 super ：  
 volatile：  
 
-**函数**  
+**方法**  
 return：返回  
 void：无类型  
 null：空  
@@ -68,18 +68,27 @@ extends finally catch  package    import implements instanceof  new native try s
 方法二：数据类型 数组名[ ];  
 
 分配空间：数组名 = new 数据类型[数组长度];  
-举例：int[ ] scores = new int[ ]{70,80,90};  
-
+``` java
+int[ ] scores = new int[ ]{70,80,90};  
+```
 for(元素类型 元素变量:遍历对象)  
-举例：for(String tmp:names)  
-
+``` java
+for(String tmp:names){
+    System.out.println(tmp);
+}
+```
 ### 二维数组-6
 数据类型[ ][ ] 数组名 = new 数据类型[行的个数][列的个数];
 数据类型[ ][ ] 数组名;
 数组名 = new 数据类型[行的个数][列的个数];
 ``` java
-int[][] num = new int[3][];
+int[][] num = new int[3][];//必须指定行的个数;
 num[0] = new int[2];//为第一行分配两列;
 num[1] = new int[3];//为第二行分配三列;
 num[2] = new int[4];//为第三行分配四列;
 ```
+
+### 方法-7
+访问修饰符 返回值类型 方法名(参数列表){
+        方法体
+}
