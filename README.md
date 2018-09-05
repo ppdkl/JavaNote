@@ -4,7 +4,9 @@
 *import java.util.Scanner*  
 *main+Alt+/  -->main方法*  
 *Syso+Alt+/  -->System.out.println();*  
-*import java.util.Arrays -->操作数组的方法*
+*import java.util.Arrays -->操作数组的方法*  
+*Arrays.sort(数组名);//实现对数组的排序*  
+*Arrays.toString(数组名);//实现将数组转换成字符串*  
 *问题：public ststic HelloWorld{}，HelloWorld为什么要和源文件名一致？*   
 *问题：为什么运行字节码文件不允许带后缀.class？*  
 
@@ -62,9 +64,16 @@ extends finally catch  package    import implements instanceof  new native try s
 举例：'javadoc -d doc Demo03.java'  
 
 ### 数组-6
-方法一：数据类型[ ] 数组名  
-方法二：数据类型 数组名[ ]  
-分配空间：数组名 = new 数据类型[数组长度]  
+方法一：数据类型[ ] 数组名;  
+方法二：数据类型 数组名[ ];  
+
+分配空间：数组名 = new 数据类型[数组长度];  
 举例：int[ ] scores = new int[ ]{70,80,90};  
-Arrays.sort(数组名);//实现对数组的排序
-Arrays.toString(数组名);//实现将数组转换成字符串[ 1, 2, 3, 4, 5 ]
+
+for(元素类型 元素变量:遍历对象)  
+举例：for(String tmp:names)  
+
+### 二维数组-6
+数据类型[ ][ ] 数组名 = new 数据类型[行的个数][列的个数];
+数据类型[ ][ ] 数组名;
+数组名 = new 数据类型[行的个数][列的个数];
